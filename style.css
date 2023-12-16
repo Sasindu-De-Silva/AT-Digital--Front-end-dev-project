@@ -1,0 +1,559 @@
+@font-face {
+    font-family: "lato";
+    src: url(font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(font/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(font/Poppins-Regular.ttf);
+}
+
+
+@media (min-width: 375px) {
+    .footer-header-main{
+        background-color: #6b3cc9;
+        font-family: "lato";
+        padding: 26px 20px 26px 20px;
+    }
+    
+
+    .body-img {
+        background-image: url("images/andy-kelly-0E_vhMVqL9g-unsplash\ 1.png");
+        height: 218px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: initial;
+        top: 77px;
+    }
+    .main-box{
+        background-image: linear-gradient(to left,#1CBDDD,#4DCA79);
+        top: 295px;
+        padding: 24px 20px 32px 20px;
+        gap: 20px;
+    }
+    .main-header{
+        text-transform: capitalize;
+        font-size: 36px;
+        font-family: "inter";
+        line-height: 36px;
+        letter-spacing: -2%;
+        font-weight: 700;
+    }
+
+
+    .box-1{
+        text-align: center;
+        top: 649px;
+        left: 20px;
+        gap: 20px;
+        /* position: sticky; */
+    }
+    .image2{
+        background-image: url("images/image\ 2.png");
+        height: 275.82px;
+        width: 275px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: initial;
+    }
+    .content-1{
+        width: 335px;
+        gap: 20px;
+    }
+    .header2{
+        font-family: "poppins";
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 33px;
+        letter-spacing: 0.4px;
+        align-items: Center;
+        color: #6B3CC9;
+    }
+    .des{
+        font-family: "inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+    }
+    .box-2{
+        text-align: center;
+        top: 1281.82px;
+        left: 20px;
+        gap: 20px;
+        /* position: sticky; */
+    }
+    .image1{
+        background-image: url("images/image\ 1.png");
+        height: 276px;
+        width: 275px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: initial;
+    }
+    .content-2{
+        width: 335px;
+        top: 1281.82px;
+        left: 20px;
+        gap: 20px;
+    }
+    .buttons{
+        font-family: "inter";
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: -2%;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        background-color: #f28d35;
+        border-radius: 4px;
+        padding: 12px 20px 12px 20px;
+        gap: 8px;
+    }
+
+
+    .footer-header-last{
+        background-color: #6b3cc9;
+        padding: 40px 20px 20px 20px;
+        top: 1934.82px;
+        gap: 40px;
+    }
+    .footer-dev-1{
+        font-family: "lato";
+        width: 413px;
+        padding: 0px;
+    }
+    .footer-dev-2{
+        gap: 12px;
+        display: grid;
+        padding: 0px;
+    }
+    .footer-head1{
+        font-family: "inter";
+        font-weight: 600;
+        size: 21px;
+        line-height: 25.41px;
+    }
+    .footer-head2{
+        font-family: "inter";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+    .hr-1{
+        width: 335px;
+    }
+  }
+  
+  /* >= 768 */
+  @media (min-width: 768px) {
+    .footer-header-main{
+        background-color: #6b3cc9;
+        font-family: "lato";
+        padding: 26px 40px 26px 40px;
+    }
+
+
+    .body-img {
+        background-image: url("images/andy-kelly-0E_vhMVqL9g-unsplash\ 1.png");
+        height: 489px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: initial;
+        top: -41px;
+    }
+    .main-box{
+        background-image: linear-gradient(to left,#1CBDDD,#4DCA79);
+        top: 525px;
+        padding: 24px 40px 32px 40px;
+        gap: 20px;
+    }
+    .main-header{
+        text-transform: capitalize;
+        font-size: 48px;
+        font-family: "inter";
+        line-height: 48px;
+        letter-spacing: -2%;
+    }
+    
+
+    .box-1{
+        top: 843px;
+        left: 40px;
+        gap: 20px;
+        /* position: sticky; */
+    }
+    .image2{
+        background-image: url("images/image\ 2.png");
+        height: 275px;
+        width: 275px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: initial;
+    }
+    .content-1{
+        width: 393px;
+        gap: 20px;
+    }
+    .header2{
+        font-family: "poppins";
+        font-size: 27px;
+        color: #6B3CC9;
+        font-weight: bold;
+    }
+    .des{
+        font-family: "inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+    }
+    .box-2{
+        top: 1178px;
+        left: 40px;
+        gap: 20px;
+        /* position: sticky; */
+    }
+    .image1{
+        background-image: url("images/image\ 1.png");
+        height: 275px;
+        width: 275px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: initial;
+    }
+    .content-2{
+        width: 393px;
+        gap: 20px;
+    }
+    .buttons{
+        font-family: "inter";
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: -2%;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        background-color: #f28d35;
+        border-radius: 4px;
+        padding: 12px 20px 12px 20px;
+        gap: 8px;
+    }
+
+
+    .footer-header-last{
+        background-color: #6b3cc9;
+        padding: 40px 40px 20px 40px;
+        top: 1534px;
+        gap: 40px;
+    }
+    .footer-dev-1{
+        font-family: "lato";
+        width: 413px;
+        padding: 0px;
+    }
+    .footer-dev-2{
+        gap: 12px;
+        display: grid;
+        padding: 0px;
+    }
+    .footer-head1{
+        font-family: "inter";
+        font-weight: 600;
+        size: 21px;
+        line-height: 25.41px;
+    }
+    .footer-head2{
+        font-family: "inter";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+    .hr-1{
+        width: 630px;
+    }
+  }
+
+  /* >= 1200 */
+  @media (min-width: 1200px) {
+    .footer-header-main{
+        background-color: #6b3cc9;
+        font-family: "lato";
+        padding: 26px 60px 26px 60px;
+        /* box-sizing: content-box; */
+    }
+
+    
+    .body-img {
+        background-image: url("images/andy-kelly-0E_vhMVqL9g-unsplash\ 1.png");
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: initial;
+        top: -63px;
+        /* box-sizing: content-box; */
+    }
+    .main-box{
+        background-image: linear-gradient(to left,#1CBDDD,#4DCA79);
+        width: 622px;
+        top: 354px;
+        left: 60px;
+        padding: 24px 40px 32px 40px;
+        gap: 20px;
+        position: absolute;
+    }
+    .main-header{
+        text-transform: capitalize;
+        font-size: 48px;
+        font-family: "inter";
+        line-height: 48px;
+        letter-spacing: -2%;
+    }
+
+    
+    .box-1{
+        width: 896px;
+        top: 857px;
+        left: 152px;
+        gap: 20px;
+        position: absolute;
+    }
+    .image2{
+        background-image: url("images/image\ 2.png");
+        height: 346px;
+        width: 346px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: initial;
+    }
+    .content-1{
+        width: 530px;
+        gap: 20px;
+    }
+    .header2{
+        font-family: "poppins";
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 33px;
+        letter-spacing: 0.4px;
+        color: #6B3CC9;
+        font-weight: bold;
+    }
+    .des{
+        font-family: "inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+    }
+    .box-2{
+        top: 1283px;
+        left: 152px;
+        gap: 20px;
+        position: absolute;
+    }
+    .image1{
+        background-image: url("images/image\ 1.png");
+        height: 275px;
+        width: 275px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: initial;
+    }
+    .content-2{
+        width: 393px;
+        gap: 20px;
+    }
+    .buttons{
+        font-family: "inter";
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: -2%;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        background-color: #f28d35;
+        border-radius: 4px;
+        padding: 12px 20px 12px 20px;
+        gap: 8px;
+    }
+
+
+
+    .footer-header-last{
+        background-color: #6b3cc9;
+        padding: 40px 60px 20px 60px;
+        top: 900px;
+        /* top: 1711px; */
+        gap: 40px;
+        position: relative;
+    }
+    .footer-dev-1{
+        font-family: "lato";
+        width: 438px;
+        padding: 0px;
+    }
+    .footer-dev-2{
+        gap: 12px;
+        display: grid;
+        padding: 0px;
+    }
+    .footer-head1{
+        font-family: "inter";
+        font-weight: 600;
+        size: 21px;
+        line-height: 25.41px;
+    }
+    .footer-head2{
+        font-family: "inter";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+    .hr-1{
+        width: 630px;
+    }
+  }
+  
+  /* >= 1440 */
+  @media (min-width: 1440px) {
+    .footer-header-main{
+        background-color: #6b3cc9;
+        font-family: "lato";
+        padding: 26px 80px 26px 80px;
+        box-sizing: content-box;
+    }
+    
+    
+    .body-img {
+        background-image: url("images/andy-kelly-0E_vhMVqL9g-unsplash\ 1.png");
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: initial;
+        top: -40px;
+        /* box-sizing: content-box; */
+}
+    .main-box{
+        background-image: linear-gradient(to left,#1CBDDD,#4DCA79);
+        width: 630px;
+        top: 354px;
+        left: 80px;
+        padding: 24px 40px 32px 40px;
+        gap: 20px;
+        position: absolute;
+    }
+    .main-header{
+        text-transform: capitalize;
+        font-size: 48px;
+        font-family: "inter";
+        line-height: 48px;
+        letter-spacing: -2%;
+    }
+
+
+    .box-1{
+        width: 1200px;
+        top: 857px;
+        left: 188px;
+        gap: 108px;
+        position: absolute;
+    }
+    .image2{
+        background-image: url("images/image\ 2.png");
+        height: 414px;
+        width: 414px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: initial;
+    }
+    .content-1{
+        width: 542px;
+        gap: 20px;
+    }
+    .header2{
+        font-family: "poppins";
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 33px;
+        letter-spacing: 0.4px;
+        color: #6B3CC9;
+        font-weight: bold;
+    }
+    .des{
+        font-family: "inter";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+    }
+    .box-2{
+        width: 1200px;
+        top: 1351px;
+        left: 188px;
+        /* gap: 108px; */
+        position: absolute;
+    }
+    .image1{
+        background-image: url("images/image\ 1.png");
+        height: 416px;
+        width: 414px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: initial;
+    }
+    .content-2{
+        width: 542px;
+        gap: 20px;
+    }
+    .buttons{
+        font-family: "inter";
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: -2%;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        background-color: #f28d35;
+        border-radius: 4px;
+        padding: 12px 20px 12px 20px;
+        gap: 8px;
+    }
+
+
+    .footer-header-last{
+        background-color: #6b3cc9;
+        padding: 40px 80px 20px 80px;
+        top: 1000px;
+        /* top: 1867px; */
+        gap: 40px;
+        position: relative;
+    }
+    .footer-dev-1{
+        font-family: "lato";
+        width: 413px;
+        padding: 0px;
+    }
+    .footer-dev-2{
+        gap: 12px;
+        display: grid;
+        width: 197px;
+        padding: 0px;
+    }
+    .footer-head1{
+        font-family: "inter";
+        font-weight: 600;
+        size: 21px;
+        line-height: 25.41px;
+    }
+    .footer-head2{
+        font-family: "inter";
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+    .hr-1{
+        width: 630px;
+    }
+  }
